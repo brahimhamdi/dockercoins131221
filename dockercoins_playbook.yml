@@ -37,6 +37,10 @@
         msg: "{{ deploy_result.stdout_lines }}"
       tags:
         - deploy
+    - name: all ressources
+      debug:
+        msg: "{{ all_res.stdout_lines }}"
+
   handlers:
     - name: get all resources
       command: kubectl get all -o wide
