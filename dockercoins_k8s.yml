@@ -6,7 +6,7 @@ metadata:
     app: dockercoins
     tier: worker
 spec:
-  replicas: 5
+  replicas: 40
   selector:
     matchLabels:
       tier: worker
