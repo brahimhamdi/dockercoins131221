@@ -1,4 +1,4 @@
-master	ansible_host=localhost  ansible_connection=local ansible_user=vagrant 
+master	ansible_host=192.168.205.10  ansible_ssh_user=vagrant 
 [workers]
 worker1 ansible_host=192.168.205.11  ansible_ssh_user=vagrant
 worker2 ansible_host=192.168.205.12  ansible_ssh_user=vagrant
